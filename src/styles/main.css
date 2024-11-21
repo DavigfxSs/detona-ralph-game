@@ -1,0 +1,133 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url(../images/wall.png);
+
+}
+
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    height: 90px;
+    width: 100%;
+    background-color: #000;
+    color: #ffffff;
+    border-bottom: 5px solid #ffd700;
+}
+
+.menu-lives {
+    display: flex;
+    align-items: center;
+}
+
+h2 {
+    color: #ff0000;
+    margin-bottom: 2vh;
+}
+
+.panels {
+margin-top: 1rem;
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 5vh;
+
+}
+
+
+.square {
+    height: 150px;
+    width: 150px;
+    background-image: url(../images/janela-sem-ralph.png);
+    background-size: cover;
+    margin-top: 5vh;
+}
+
+
+.enemy {
+background-image: url(../images/janela-ralph.png);
+background-size: cover;
+background-position: center;
+}
+
+.difficulty {
+    text-align: center;
+    margin-top: 5vh;
+}
+
+.difficultybuttons {
+    margin: 3vh;
+}
+
+button {
+justify-content: center;  /* Centraliza o conteúdo horizontalmente */
+    align-items: center;      /* Centraliza o conteúdo verticalmente */
+    width: 64px;
+    height: 38px;
+    padding: 0;               /* Remove qualquer padding extra */
+    border: none;             /* Remove a borda do botão (se necessário) */
+    
+}
+
+button img {
+    width: 32px;
+    margin-left: 1vh;
+}
+
+.game-button {
+    width: 120px;
+    height: 52px;
+    position: relative;
+    top: 0;
+    cursor: pointer;
+    text-decoration: none !important;
+    outline: none !important;
+    font-family: 'Carter One', sans-serif;
+    font-size: 20px;
+    line-height: 1.5em;
+    letter-spacing: .1em;
+    text-shadow: 2px 2px 1px #d35f6e, -2px 2px 1px #d35f6e, 2px -2px 1px #d35f6e, -2px -2px 1px #d35f6e, 0px 2px 1px #d35f6e, 0px -2px 1px #d35f6e, 0px 4px 1px #9c2f3f, 2px 4px 1px #9c2f3f, -2px 4px 1px  #9c2f3f;
+    border: none;
+    margin: 15px 15px 30px;
+    background: repeating-linear-gradient(45deg, #f56a5e, #f56a5e 5px, #e66a6b 5px, #e66a6b 10px); /* Alterado para tons de vermelho */
+    border-bottom: 3px solid rgba(146, 16, 16, 0.5); /* Vermelho mais escuro para a borda inferior */
+    border-top: 3px solid rgba(255,255,255,.3);
+    color: #fff !important;
+    border-radius: 8px;
+    padding: 8px 15px 10px;
+    box-shadow: 0 6px 0 #8b2d2d, 0 8px 1px 1px rgba(0,0,0,.3), 0 10px 0 5px #6a2323, 0 12px 0 5px #811e1e, 0 15px 0 5px #511414, 0 15px 1px 6px rgba(0,0,0,.3);
+}
+
+.game-button:hover {
+    top: 2px;
+    box-shadow: 0 4px 0 #8b2d2d, 0 6px 1px 1px rgba(0,0,0,.3), 0 8px 0 5px #6a2323, 0 10px 0 5px #811e1e, 0 13px 0 5px #511414, 0 13px 1px 6px rgba(0,0,0,.3);
+}
+
+.game-button::before {
+    content: '';
+    height: 10%;
+    position: absolute;
+    width: 40%;
+    background: #fff;
+    right: 13%;
+    top: -3%;
+    border-radius: 99px;
+}
+
+.game-button::after {
+    content: '';
+    height: 10%;
+    position: absolute;
+    width: 5%;
+    background: #fff;
+    right: 5%;
+    top: -3%;
+    border-radius: 99px;
+}
+
+.button3 {
+    width: 160px;
+}
