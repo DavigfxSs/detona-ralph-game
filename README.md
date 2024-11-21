@@ -34,7 +34,7 @@ cd jogo-do-ralph
 5. O objetivo é acumular o maior número de pontos possível antes de perder todas as suas vidas.
 
 ## 🖼️ Tela do Jogo
-![Texto alternativo da imagem](src/images/printscreen)
+![Texto alternativo da imagem](src/images/printscreen.png)
 
 ## 🚧 Funcionalidades Planejadas
 
